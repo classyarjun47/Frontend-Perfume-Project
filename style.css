@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  width: 50vw;
+  background-color: rgb(225, 225, 225);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 330px;
+  width: 450px;
+  position: relative;
+  top: 50%;
+}
+.image {
+  height: 100%;
+  width: 100%;
+}
+.card-right {
+  height: 100%;
+  padding: 25px;
+  background-color: white;
+}
+.top {
+  height: 30px;
+}
+.top-sec {
+  font-size: 25px;
+  height: 95px;
+}
+p {
+  height: 70px;
+  font-size: 12px;
+}
+.num {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.fir {
+  height: 45px;
+  color: rgb(0, 192, 0);
+}
+button {
+  border: none;
+  width: 180px;
+  height: 30px;
+  background-color: rgb(0, 207, 0);
+  color: white;
+  cursor: pointer;
+}
